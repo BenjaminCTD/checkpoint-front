@@ -4,8 +4,6 @@ html {
     width: 100vw;
 }
 
-
-
 *{
     box-sizing: border-box;
     font-family: "roboto", sans-serif;
@@ -68,7 +66,6 @@ a:hover {
 
 main {
     width: 100vw;
-    
 }
 
 main > .banner {
@@ -96,7 +93,6 @@ main > .banner {
     margin-top: 10px;
 }
 
-
 .secao-curiosidades {
     width: 100%;
     display: flex;
@@ -105,7 +101,6 @@ main > .banner {
     align-items: center;
     gap: 40px;
     padding-top: 45px;
-    
 }
 
 .card1 {
@@ -144,8 +139,6 @@ main > .banner {
     line-height:40px;
     height:40px;
     margin-left: 50px;
-    
-    
 }
 
 .secao-curiosidades > .card2 > img {
@@ -173,11 +166,8 @@ main > .banner {
     width:200px;
     line-height:40px;
     height:40px;
-    margin-left: 50px;
-    
-    
+    margin-left: 50px; 
 }
-
 
 .main-video {
     
@@ -196,7 +186,6 @@ main > .banner {
     margin-top: 150px;
     display: flex;
     align-items: center;
-
 }
 
 .card-video > iframe {
@@ -204,14 +193,6 @@ main > .banner {
     height: 100%;
     border-radius: 20px;
 }
-
-.main-video > .texto-video > h3 {
-
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* margin-right: 200px; */
-}
-
 
 .card-video {
     width: 80%;
@@ -231,7 +212,6 @@ footer {
     height: 795px;
     display: flex;
     flex-direction: column;
-    
     background-color: #242222;
 }
 
@@ -242,7 +222,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .rede-github {
@@ -280,7 +259,6 @@ footer {
 @media (max-width: 1279px){
     .banner {
         display: none;
-        
     }
 }
 
@@ -292,30 +270,26 @@ footer {
         justify-content: space-around;
         align-items: center;
         padding: 40px;
-        
     }
 }
 
 @media (min-width: 1280px){
     .logo-topo {
-        width: 30%;
-        
+        width: 30%; 
     }
 }
 
 @media (min-width: 1280px){
     nav {
         width: 50%;
-        flex-direction: row;
-        
+        flex-direction: row; 
     }
 }
 
 @media (min-width: 1280px){
     .texto-curiosidades > h2 {
         margin-right: 64%;
-        padding-top: 15%;
-        
+        padding-top: 15%; 
     }
 }
 
@@ -324,8 +298,6 @@ footer {
         flex-direction: row;
         padding-top: 10%;
         justify-content: space-evenly;
-        
-        
     }
 }
 
@@ -347,18 +319,16 @@ footer {
     }
 }
 
-/* @media (min-width: 1280px){
+@media (min-width: 1280px){
     .card1:hover, .card2:hover, .card3:hover {
         transform: scale(2, 1);
         transition: 0.5s;
     }
-} */
+}
 
 @media (min-width: 1280px){
     .main-video { 
-        /* display: block; */
-        align-items: center;
-        
+        align-items: center; 
     }
 }
 
@@ -366,10 +336,8 @@ footer {
     .main-video > .texto-video { 
         width: 100%;
         height: 50px;
-        /* margin-left: 20%; */
         padding-top: 10%;
-        justify-content: space-around;
-        
+        justify-content: space-around;  
     }
 }
 
@@ -378,8 +346,7 @@ footer {
         width: 800px;
         height: 534px;
         margin-top: 5%;
-        margin-bottom: 15%;
-        /* margin-left: 20%;  */
+        margin-bottom: 15%; 
     }
 }
 
@@ -392,4 +359,3 @@ footer {
         align-items: center; 
     }
 }
-
