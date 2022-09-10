@@ -108,6 +108,7 @@ main > .banner {
     height: 534px;
     background-color: #c4c4c4;
     border-radius: 31px;
+    box-shadow: 5px 10px 8px 1px #888888;
 }
 
 .secao-curiosidades > .card1 > img {
@@ -123,6 +124,7 @@ main > .banner {
     line-height:40px;
     height:40px;
     margin-left: 50px;
+    
 }
 
 .card2 {
@@ -130,6 +132,7 @@ main > .banner {
     height: 534px;
     background-color: #c4c4c4;
     border-radius: 31px;
+    box-shadow: 5px 10px 8px 1px #888888;
 }
 
 .card2::after {
@@ -152,6 +155,7 @@ main > .banner {
     height: 534px;
     background-color: #c4c4c4;
     border-radius: 31px;
+    box-shadow: 5px 10px 8px 1px #888888;
 }
 
 .secao-curiosidades > .card3 > img {
@@ -264,7 +268,6 @@ footer {
 
 @media (min-width: 1280px){
     header {
-        /* width: 100%; */
         height: 230px;
         flex-direction: row;
         justify-content: space-around;
@@ -321,7 +324,7 @@ footer {
 
 @media (min-width: 1280px){
     .card1:hover, .card2:hover, .card3:hover {
-        transform: scale(2, 1);
+        transform: scale(1.2, 1.2);
         transition: 0.5s;
     }
 }
