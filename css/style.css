@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'");
+
+
+*{
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+
+header {
+    width: 100vw;
+    height: 430px;
+    background-color: #242222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.logo-topo {
+    width: 60%;
+    height: 30px;
+    margin: 25px 0px 10px 0px;
+    padding: 40px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-topo > .img-logo > img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;  
+}
+
+nav > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 36px;
+    width: 50%;
+    height: 82px;
+    text-decoration: none;
+    color: #b9b4b4;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+main {
+    width: 100vw;
+    
+}
+
+main > .banner {
+    width: 100%;
+    height: 532px;
+    background-color: red;
+}
+
+.banner > .carrosel-banner{
+    width: 100%;
+    height: 100%;
+}
+
+.banner > .carrosel-banner > img {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-curiosidades {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.secao-curiosidades {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 45px;
+    
+}
+
+.card1 {
+    width: 80%;
+    height: 534px;
+    background-color: #c4c4c4;
+    border-radius: 31px;
+}
+
+.secao-curiosidades > .card1 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 31px;
+}
+
+.card1::after {
+    content:"A cidade dos exageros.";
+    width: 50%;
+    width:200px;
+    line-height:40px;
+    height:40px;
+    margin-left: 50px;
+}
+
+.card2 {
+    width: 80%;
+    height: 534px;
+    background-color: #c4c4c4;
+    border-radius: 31px;
+}
+
+.card2::after {
+    content:"A Igreja Matriz de Nossa Senhora Candelária de Itu é a maior igreja barroca do Estado de São Paulo.";
+    width: 150px;
+    width:200px;
+    line-height:40px;
+    height:40px;
+    margin-left: 50px;
+    
+}
+
+.secao-curiosidades > .card2 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 31px;
+}
+
+.card3 {
+    width: 80%;
+    height: 534px;
+    background-color: #c4c4c4;
+    border-radius: 31px;
+}
+
+.secao-curiosidades > .card3 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 31px;
+}
+
+.card3::after {
+    content:"Praça dos Exageros é um parque temático que possui diversos objetos em tamanho gigante.";
+    width: 150px;
+    width:200px;
+    line-height:40px;
+    height:40px;
+    margin-left: 50px;
+    
+    
+}
+
+
+.main-video {
+    
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;;
+}
+
+.main-video > .texto-video {
+    width: 80%;
+    height: 50px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-video > iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.main-video > .texto-video > h3 {
+
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* margin-right: 200px; */
+}
+
+
+.card-video {
+    width: 80%;
+    height: 534px;
+    background-color: #c4c4c4;
+    border-radius: 31px;
+    margin-bottom: 40px;
+}
+
+.card-video > iframe {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100vw;
+    height: 795px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #242222;
+}
+
+.rede-linkedin {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rede-github {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;            
+}
+
+.rede-linkedin > a > img {
+    width: 150px;
+    border-radius: 70px;
+}
+
+.rede-linkedin > h3 {
+    color: #b9b4b4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rede-github > a > img {
+    width: 150px;
+    border-radius: 70px;
+}
+
+.rede-github > h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #b9b4b4;
+}
+
+
+/* media querry */
+
+@media (max-width: 1279px){
+    .banner {
+        display: none;
+        
+    }
+}
+
+@media (min-width: 1280px){
+    header {
+        /* width: 100%; */
+        height: 230px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px;
+        
+    }
+}
+
+@media (min-width: 1280px){
+    .logo-topo {
+        width: 30%;
+        
+    }
+}
+
+@media (min-width: 1280px){
+    nav {
+        width: 50%;
+        flex-direction: row;
+        
+    }
+}
+
+@media (min-width: 1280px){
+    .texto-curiosidades > h2 {
+        margin-right: 64%;
+        padding-top: 15%;
+        
+    }
+}
+
+@media (min-width: 1280px){
+    .secao-curiosidades {
+        flex-direction: row;
+        padding-top: 10%;
+        justify-content: space-evenly;
+        
+        
+    }
+}
+
+@media (min-width: 1280px){
+    .card1 {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1280px){
+    .card2 {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1280px){
+    .card3 {
+        width: 20%;
+    }
+}
+
+/* @media (min-width: 1280px){
+    .card1:hover, .card2:hover, .card3:hover {
+        transform: scale(2, 1);
+        transition: 0.5s;
+    }
+} */
+
+@media (min-width: 1280px){
+    .main-video { 
+        display: block;
+        
+    }
+}
+
+@media (min-width: 1280px){
+    .main-video > .texto-video { 
+        width: 100%;
+        height: 50px;
+        margin-left: 20%;
+        padding-top: 10%;
+        
+    }
+}
+
+@media (min-width: 1280px){
+    .card-video { 
+        width: 800px;
+        height: 534px;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        margin-left: 20%; 
+    }
+}
+
+@media (min-width: 1280px){
+    footer {
+        
+        height: 400px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+    }
+}
+
