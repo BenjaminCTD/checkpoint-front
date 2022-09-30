@@ -1,114 +1,107 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkpoint 1</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>CheckPoint Front 1</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/curiosidades.css">
+    <link rel="stylesheet" href="styles/video.css">
 </head>
 <body>
-    
-    <header>
-
-        <div class="logo-topo">
-
+        <header>
             <div class="img-logo">
 
-                <img src="img/logo-itu.png" alt="">
-
+                    <img class="logo-header" src="images/logo-itu.png" alt="">
             </div>
-        </div>
 
-        <nav>
+            <div class="nav-top">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#card1">Curiosidades</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
 
-            <a href="#">Home</a>
-            <a href="#curiosidades">Curiosidades</a>
-            <a href="#video">Video</a>
+        <main>
 
-        </nav>
-    
-    </header>
+            <h2 class="titulo-curiosidades">Curiosidades da Cidade</h2>
 
-    <main>
+            <section class="container-curiosidades">
 
-            <section class="banner">
+                <!-- <h2 class="titulo-curiosidades">Curiosidades da Cidade</h2> -->
 
-                <div class="carrosel-banner">
+                <div class="cards-curiosidade" id="card1">
 
-                    <img src="img/matriz-itu.png" alt="">
+                    <div class="texto-cards">
+                        <p>Entre os principais pontos turísticos da cidade está o orelhão de Itu, localizado na Praça da Matriz. A estrutura foi instalada pela Telesp, operadora de telefonia em 1973.</p>
+
+                        
+                    </div>
+
+                </div>
+
+                <div class="cards-curiosidade" id="card2">
+
+                    <div class="texto-cards">
+                        <p>A Igreja Matriz de Nossa Senhora Candelária de Itu é a maior igreja barroca do Estado de São Paulo.</p>
+                    </div>
+
+                </div>
+
+                <div class="cards-curiosidade" id="card3">
+
+                    <div class="texto-cards">
+                        <p>Localizada ao lado do Centro Esportivo e de Lazer “Franco Montoro”, a Praça dos Exageros é um parque temático que possui diversos objetos em tamanho gigante.</p>
+                    </div>
+
                 </div>
 
             </section>
 
-            <section class="texto-curiosidades">
+            <section class="container-video" id="video">
+
+                <h2>Video</h2>
+
+                <div class="video-itu">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ASCsbHSdDSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
                 
-            <h2>Curiosidades da Cidade</h2>
-            
             </section>
 
-            <section class="secao-curiosidades" id="curiosidades">
-
-                    <div class="card1">
-                        <img src="img/tesoura-itu.png" alt="">
-
-                    </div>
-
-                    <div class="card2">
-                        <img src="img/igreja-matriz-itu.png" alt="">
-
-                    </div>
-
-                    <div class="card3">
-                        <img src="img/praca-exagero-itu" alt="">
-
-                    </div>
-            </section>
-                <section class="main-video" id="video">
-
-                    <div class="texto-video">
-                        
-                        <h3>Vídeo</h3>
-
-                    </div>
-
-                    <div class="card-video">
-
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZMe1Uznil0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-
-                        </iframe>
-
-                    </div>
-                    
-            </section>
-    </main>    
-    <footer>
-
-            <div class="rede-linkedin">
-                
-                <a href="#">
-
-                    <img src="img/linkedin.png" alt="">
 
 
-                </a>
+        </main>
 
-                <h3>Linkedln</h3>
+        <footer>
+            <div class="redes-sociais">
+
+                <img class="rotate" src="images/linkedin.png" alt="">
+               <a class="ancoras" href="https://www.linkedin.com/in/benjaminjuniordesenvolvedor/">Linkedln</a>
 
             </div>
 
-            <div class="rede-github">
+            <div class="redes-sociais">
 
-                <a href="#">
-
-                    <img src="img/github.png" alt="">
-
-                </a>
-
-                <h3>GitHub</h3>
+                <img class="rotate" src="images/github.png" alt="">
+               
+                <a class="ancoras" href="https://github.com/BenjaminCTD">GitHub</a>
 
             </div>
 
-    </footer>
+            <!-- <p>todos os direitos reservados a front1</p> -->
+
+        </footer>
+        <p class="direitos">CheckPoint 1 desenvolvido em 2022 por Benjamin Junior</p>
+    
 </body>
 </html>
