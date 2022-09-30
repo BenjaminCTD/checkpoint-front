@@ -1,6 +1,6 @@
 header{
     width: 100vw;
-    height: 50vh;
+    height: 100%;
     background-color:#1DB954;;
     display: flex;
     justify-content: center;
@@ -40,13 +40,14 @@ ul{
 }
 
 ul > li {
-    height: 4em;
+    height: 4em;;
+    max-height: 300px;
 }
 
 ul > li > a {
     text-decoration: none;
     line-height: 4em;
-    font-size: 1.4em;
+    font-size: 1em;
     border-style: solid;
     border-width: medium;
     padding: 0.3em 2em 0.3em 2em;
